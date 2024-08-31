@@ -23,7 +23,7 @@ ul {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5
+        color: #4d5ae5;
 }
 
 .logo-prefix {
@@ -34,6 +34,10 @@ ul {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2e2f42;
+}
+
+.contacts {
+    font-style: normal;
 }
 
 .link-nav {
@@ -69,6 +73,7 @@ font-weight: 400;
 }
 
 .page-title {
+    text-align: center;
     font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -78,8 +83,7 @@ font-weight: 400;
 
 .hero-section-btn {
     cursor: pointer;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4d5ae5;
+        background-color: #4d5ae5;
         font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -88,12 +92,11 @@ font-weight: 400;
 }
 
 .hero-section-btn:hover {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #404bbf;
+        background-color: #404bbf;
 }
 
 .benefits-section {
-    background: #fff;
+    background-color: #fff;
 }
 
 .benefits-option {
@@ -113,14 +116,15 @@ font-weight: 400;
 }
 
 .team-section {
-    background: #f4f4fd;
+    background-color: #f4f4fd;
 }
 
 .team-section-title {
+    text-align: center;
     font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
-        text-transform: capitalize
+        text-transform: capitalize;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
@@ -130,6 +134,7 @@ font-weight: 400;
 }
 
 .team-member-title {
+    text-align: center;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -146,7 +151,7 @@ font-weight: 400;
 }
 
 .portfolio-section {
-    background: #fff;
+    background-color: #fff;
 }
 
 .portfolio-section-title {
@@ -175,7 +180,7 @@ font-weight: 400;
 }
 
 .page-bottom {
-    background: #2e2f42;
+    background-color: #2e2f42;
 }
 
 .logo-footer {
