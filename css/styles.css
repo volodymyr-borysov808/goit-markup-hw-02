@@ -8,7 +8,8 @@ a {
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #2e2f42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -19,23 +20,23 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;
+        color: #4d5ae5
 }
 
 .logo-prefix {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5;
+        color: #2e2f42;
 }
 
-header>nav>ul>li>a {
+.link-nav {
 font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -43,15 +44,15 @@ font-weight: 500;
     color: #2e2f42;
 }
 
-header>nav>ul>li>a:hover, header>nav>ul>li>a:focus {
+.link-nav:hover, .link-nav:focus {
 color: #404bbf;
 }
 
-.link-studio:active {
+.link-nav:active {
 text-decoration: underline;
 }
 
-address>ul>li>a {
+.link-address {
 font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -59,7 +60,7 @@ font-weight: 400;
     color: #434455;
 }
 
-address>ul>li>a:hover, address>ul>li>a:focus {
+.link-address:hover, .link-address:focus {
     color: #404bbf;
 }
 
@@ -70,13 +71,12 @@ address>ul>li>a:hover, address>ul>li>a:focus {
 .page-title {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #fff;
 }
 
-button {
+.hero-section-btn {
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
@@ -87,7 +87,7 @@ button {
             color: #fff;
 }
 
-button:hover {
+.hero-section-btn:hover {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #404bbf;
 }
@@ -96,11 +96,7 @@ button:hover {
     background: #fff;
 }
 
-.benefits-section-title {
-    display: none;
-}
-
-.benefits-section>ul>li>h3 {
+.benefits-option {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -108,7 +104,7 @@ button:hover {
         color: #2e2f42;
 }
 
-.benefits-section>ul>li>p {
+.benefits-text {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -123,13 +119,17 @@ button:hover {
 .team-section-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
+        text-transform: capitalize
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
 }
 
-.team-section>ul>li>h3 {
+.team-member {
+    background-color: #FFFFFF;
+}
+
+.team-member-title {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -137,7 +137,7 @@ button:hover {
         color: #2e2f42;
 }
 
-.team-section>ul>li>p {
+.team-member-text {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -152,13 +152,13 @@ button:hover {
 .portfolio-section-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
+        text-transform: capitalize;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
 }
 
-.portfolio-section>ul>li>h3 {
+.product-title {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -166,7 +166,7 @@ button:hover {
         color: #2e2f42;
 }
 
-.portfolio-section>ul>li>p {
+.product-text {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -174,20 +174,25 @@ button:hover {
         color: #434455;
 }
 
-footer {
+.page-bottom {
     background: #2e2f42;
 }
 
 .logo-footer {
+    font-family: "Raleway", sans-serif;
 font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-footer-prefix {
     color: #f4f4fd;
 }
 
-footer>p {
+.page-bottom-text {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
